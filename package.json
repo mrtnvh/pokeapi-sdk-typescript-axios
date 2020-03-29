@@ -1,0 +1,26 @@
+{
+  "name": "pokeapi-sdk-typescript-axios",
+  "version": "2.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pregenerate": "rimraf ./src/**",
+    "generate": "npx openapi-generator generate -i node_modules/pokeapi-openapi/openapi.yml -g typescript-axios  -o ./src -c ./openapi-generator.config.json",
+    "postgenerate": "rimraf ./src/.gitignore && rimraf ./src/git_push.sh && rimraf ./src/.openapi-generator-ignore && rimraf ./src/.openapi-generator"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanhoofmaarten/pokeapi-sdk-typescript-axios.git"
+  },
+  "author": "vanhoofmaarten",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/vanhoofmaarten/pokeapi-sdk-typescript-axios/issues"
+  },
+  "homepage": "https://github.com/vanhoofmaarten/pokeapi-sdk-typescript-axios#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "rimraf": "^3.0.2",
+    "pokeapi-openapi": "git+https://github.com/vanhoofmaarten/pokeapi-openapi.git#364b44e690973b69eb655ed736dabc35bb006de7"
+  }
+}

@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pregenerate": "rimraf ./src/**",
-    "generate": "npx openapi-generator generate -i node_modules/pokeapi-openapi/openapi.yml -g typescript-axios  -o ./src -c ./openapi-generator.config.json",
+    "generate": "npx @openapitools/openapi-generator-cli@1.0.12-4.2.3 generate -i node_modules/pokeapi-openapi/openapi.yml -g typescript-axios  -o ./src -c ./openapi-generator.config.json",
     "postgenerate": "rimraf ./src/.gitignore && rimraf ./src/git_push.sh && rimraf ./src/.openapi-generator-ignore && rimraf ./src/.openapi-generator"
   },
   "repository": {

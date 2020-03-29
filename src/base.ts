@@ -1,5 +1,4 @@
 // tslint:disable
-/// <reference path="./custom.d.ts" />
 /**
  * PokéAPI
  * The RESTful Pokémon API
@@ -14,6 +13,8 @@
 
 
 import { Configuration } from "./configuration";
+// Some imports not used depending on template conditions
+// @ts-ignore
 import globalAxios, { AxiosPromise, AxiosInstance } from 'axios';
 
 export const BASE_PATH = "https://pokeapi.co".replace(/\/+$/, "");

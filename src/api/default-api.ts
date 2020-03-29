@@ -37,7 +37,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listAbilities(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/ability/`;
+            const localVarPath = `/ability/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -74,7 +74,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listBerries(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/berry/`;
+            const localVarPath = `/berry/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -111,7 +111,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listBerryFirmness(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/berry-firmness/`;
+            const localVarPath = `/berry-firmness/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -148,7 +148,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listBerryFlavors(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/berry-flavor/`;
+            const localVarPath = `/berry-flavor/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -185,7 +185,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listCharacteristics(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/characteristic/`;
+            const localVarPath = `/characteristic/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -222,7 +222,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listContestEffects(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/contest-effect/`;
+            const localVarPath = `/contest-effect/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -259,7 +259,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listContestTypes(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/contest-type/`;
+            const localVarPath = `/contest-type/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -296,7 +296,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEggGroups(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/egg-group/`;
+            const localVarPath = `/egg-group/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -333,7 +333,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEncounterConditionValues(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/encounter-condition-value/`;
+            const localVarPath = `/encounter-condition-value/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -370,7 +370,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEncounterConditions(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/encounter-condition/`;
+            const localVarPath = `/encounter-condition/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -407,7 +407,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEncounterMethods(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/encounter-method/`;
+            const localVarPath = `/encounter-method/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -444,7 +444,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEvolutionChains(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/evolution-chain/`;
+            const localVarPath = `/evolution-chain/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -481,7 +481,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listEvolutionTriggers(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/evolution-trigger/`;
+            const localVarPath = `/evolution-trigger/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -518,7 +518,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listGenders(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/gender/`;
+            const localVarPath = `/gender/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -555,7 +555,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listGenerations(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/generation/`;
+            const localVarPath = `/generation/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -592,7 +592,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listGrowthRates(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/growth-rate/`;
+            const localVarPath = `/growth-rate/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -629,7 +629,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listItemAttributes(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/item-attribute/`;
+            const localVarPath = `/item-attribute/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -666,7 +666,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listItemCategories(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/item-category/`;
+            const localVarPath = `/item-category/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -703,7 +703,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listItemFlingEffects(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/item-fling-effect/`;
+            const localVarPath = `/item-fling-effect/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -740,7 +740,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listItemPockets(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/item-pocket/`;
+            const localVarPath = `/item-pocket/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -777,7 +777,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listItems(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/item/`;
+            const localVarPath = `/item/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -814,7 +814,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listLanguages(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/language/`;
+            const localVarPath = `/language/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -851,7 +851,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listLocationAreas(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/location-area/`;
+            const localVarPath = `/location-area/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -888,7 +888,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listLocations(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/location/`;
+            const localVarPath = `/location/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -925,7 +925,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMachines(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/machine/`;
+            const localVarPath = `/machine/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -962,7 +962,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveBattleStyles(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-battle-style/`;
+            const localVarPath = `/move-battle-style/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -999,7 +999,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveDamageClass(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-damage-class/`;
+            const localVarPath = `/move-damage-class/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1036,7 +1036,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveLearnMethods(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-learn-method/`;
+            const localVarPath = `/move-learn-method/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1073,7 +1073,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveMetaAilments(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-ailment/`;
+            const localVarPath = `/move-ailment/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1110,7 +1110,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveMetaCategories(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-category/`;
+            const localVarPath = `/move-category/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1147,7 +1147,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoveTargets(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move-target/`;
+            const localVarPath = `/move-target/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1184,7 +1184,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listMoves(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/move/`;
+            const localVarPath = `/move/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1221,7 +1221,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listNatures(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/nature/`;
+            const localVarPath = `/nature/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1258,7 +1258,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPalParkAreas(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pal-park-area/`;
+            const localVarPath = `/pal-park-area/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1295,7 +1295,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokeathlonStats(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokeathlon-stat/`;
+            const localVarPath = `/pokeathlon-stat/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1332,7 +1332,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokedexs(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokedex/`;
+            const localVarPath = `/pokedex/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1369,7 +1369,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemonColors(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon-color/`;
+            const localVarPath = `/pokemon-color/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1409,7 +1409,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (pokemonId === null || pokemonId === undefined) {
                 throw new RequiredError('pokemonId','Required parameter pokemonId was null or undefined when calling listPokemonEncounters.');
             }
-            const localVarPath = `/api/v2/pokemon/{pokemon_id}/encounters`
+            const localVarPath = `/pokemon/{pokemon_id}/encounters`
                 .replace(`{${"pokemon_id"}}`, encodeURIComponent(String(pokemonId)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -1439,7 +1439,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemonForms(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon-form/`;
+            const localVarPath = `/pokemon-form/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1476,7 +1476,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemonHabitats(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon-habitat/`;
+            const localVarPath = `/pokemon-habitat/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1513,7 +1513,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemonShapes(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon-shape/`;
+            const localVarPath = `/pokemon-shape/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1550,7 +1550,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemonSpecies(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon-species/`;
+            const localVarPath = `/pokemon-species/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1587,7 +1587,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listPokemons(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/pokemon/`;
+            const localVarPath = `/pokemon/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1624,7 +1624,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listRegions(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/region/`;
+            const localVarPath = `/region/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1661,7 +1661,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listStats(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/stat/`;
+            const localVarPath = `/stat/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1698,7 +1698,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listSuperContestEffects(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/super-contest-effect/`;
+            const localVarPath = `/super-contest-effect/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1735,7 +1735,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listTypes(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/type/`;
+            const localVarPath = `/type/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1772,7 +1772,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listVersionGroups(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/version-group/`;
+            const localVarPath = `/version-group/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1809,7 +1809,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
          * @throws {RequiredError}
          */
         listVersions(offset?: number, limit?: number, options: any = {}): RequestArgs {
-            const localVarPath = `/api/v2/version/`;
+            const localVarPath = `/version/`;
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
             if (configuration) {
@@ -1849,7 +1849,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveAbility.');
             }
-            const localVarPath = `/api/v2/ability/{id}/`
+            const localVarPath = `/ability/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -1882,7 +1882,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveBerry.');
             }
-            const localVarPath = `/api/v2/berry/{id}/`
+            const localVarPath = `/berry/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -1915,7 +1915,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveBerryFirmness.');
             }
-            const localVarPath = `/api/v2/berry-firmness/{id}/`
+            const localVarPath = `/berry-firmness/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -1948,7 +1948,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveBerryFlavor.');
             }
-            const localVarPath = `/api/v2/berry-flavor/{id}/`
+            const localVarPath = `/berry-flavor/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -1981,7 +1981,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveCharacteristic.');
             }
-            const localVarPath = `/api/v2/characteristic/{id}/`
+            const localVarPath = `/characteristic/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2014,7 +2014,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveContestEffect.');
             }
-            const localVarPath = `/api/v2/contest-effect/{id}/`
+            const localVarPath = `/contest-effect/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2047,7 +2047,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveContestType.');
             }
-            const localVarPath = `/api/v2/contest-type/{id}/`
+            const localVarPath = `/contest-type/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2080,7 +2080,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEggGroup.');
             }
-            const localVarPath = `/api/v2/egg-group/{id}/`
+            const localVarPath = `/egg-group/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2113,7 +2113,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEncounterCondition.');
             }
-            const localVarPath = `/api/v2/encounter-condition/{id}/`
+            const localVarPath = `/encounter-condition/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2146,7 +2146,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEncounterConditionValue.');
             }
-            const localVarPath = `/api/v2/encounter-condition-value/{id}/`
+            const localVarPath = `/encounter-condition-value/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2179,7 +2179,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEncounterMethod.');
             }
-            const localVarPath = `/api/v2/encounter-method/{id}/`
+            const localVarPath = `/encounter-method/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2212,7 +2212,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEvolutionChain.');
             }
-            const localVarPath = `/api/v2/evolution-chain/{id}/`
+            const localVarPath = `/evolution-chain/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2245,7 +2245,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveEvolutionTrigger.');
             }
-            const localVarPath = `/api/v2/evolution-trigger/{id}/`
+            const localVarPath = `/evolution-trigger/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2278,7 +2278,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveGender.');
             }
-            const localVarPath = `/api/v2/gender/{id}/`
+            const localVarPath = `/gender/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2311,7 +2311,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveGeneration.');
             }
-            const localVarPath = `/api/v2/generation/{id}/`
+            const localVarPath = `/generation/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2344,7 +2344,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveGrowthRate.');
             }
-            const localVarPath = `/api/v2/growth-rate/{id}/`
+            const localVarPath = `/growth-rate/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2377,7 +2377,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveItem.');
             }
-            const localVarPath = `/api/v2/item/{id}/`
+            const localVarPath = `/item/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2410,7 +2410,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveItemAttribute.');
             }
-            const localVarPath = `/api/v2/item-attribute/{id}/`
+            const localVarPath = `/item-attribute/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2443,7 +2443,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveItemCategory.');
             }
-            const localVarPath = `/api/v2/item-category/{id}/`
+            const localVarPath = `/item-category/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2476,7 +2476,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveItemFlingEffect.');
             }
-            const localVarPath = `/api/v2/item-fling-effect/{id}/`
+            const localVarPath = `/item-fling-effect/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2509,7 +2509,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveItemPocket.');
             }
-            const localVarPath = `/api/v2/item-pocket/{id}/`
+            const localVarPath = `/item-pocket/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2542,7 +2542,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveLanguage.');
             }
-            const localVarPath = `/api/v2/language/{id}/`
+            const localVarPath = `/language/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2575,7 +2575,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveLocation.');
             }
-            const localVarPath = `/api/v2/location/{id}/`
+            const localVarPath = `/location/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2608,7 +2608,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveLocationArea.');
             }
-            const localVarPath = `/api/v2/location-area/{id}/`
+            const localVarPath = `/location-area/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2641,7 +2641,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMachine.');
             }
-            const localVarPath = `/api/v2/machine/{id}/`
+            const localVarPath = `/machine/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2674,7 +2674,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMove.');
             }
-            const localVarPath = `/api/v2/move/{id}/`
+            const localVarPath = `/move/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2707,7 +2707,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveBattleStyle.');
             }
-            const localVarPath = `/api/v2/move-battle-style/{id}/`
+            const localVarPath = `/move-battle-style/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2740,7 +2740,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveDamageClass.');
             }
-            const localVarPath = `/api/v2/move-damage-class/{id}/`
+            const localVarPath = `/move-damage-class/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2773,7 +2773,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveLearnMethod.');
             }
-            const localVarPath = `/api/v2/move-learn-method/{id}/`
+            const localVarPath = `/move-learn-method/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2806,7 +2806,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveMetaAilment.');
             }
-            const localVarPath = `/api/v2/move-ailment/{id}/`
+            const localVarPath = `/move-ailment/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2839,7 +2839,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveMetaCategory.');
             }
-            const localVarPath = `/api/v2/move-category/{id}/`
+            const localVarPath = `/move-category/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2872,7 +2872,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveMoveTarget.');
             }
-            const localVarPath = `/api/v2/move-target/{id}/`
+            const localVarPath = `/move-target/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2905,7 +2905,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveNature.');
             }
-            const localVarPath = `/api/v2/nature/{id}/`
+            const localVarPath = `/nature/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2938,7 +2938,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePalParkArea.');
             }
-            const localVarPath = `/api/v2/pal-park-area/{id}/`
+            const localVarPath = `/pal-park-area/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -2971,7 +2971,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokeathlonStat.');
             }
-            const localVarPath = `/api/v2/pokeathlon-stat/{id}/`
+            const localVarPath = `/pokeathlon-stat/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3004,7 +3004,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokedex.');
             }
-            const localVarPath = `/api/v2/pokedex/{id}/`
+            const localVarPath = `/pokedex/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3037,7 +3037,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemon.');
             }
-            const localVarPath = `/api/v2/pokemon/{id}/`
+            const localVarPath = `/pokemon/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3070,7 +3070,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemonColor.');
             }
-            const localVarPath = `/api/v2/pokemon-color/{id}/`
+            const localVarPath = `/pokemon-color/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3103,7 +3103,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemonForm.');
             }
-            const localVarPath = `/api/v2/pokemon-form/{id}/`
+            const localVarPath = `/pokemon-form/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3136,7 +3136,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemonHabitat.');
             }
-            const localVarPath = `/api/v2/pokemon-habitat/{id}/`
+            const localVarPath = `/pokemon-habitat/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3169,7 +3169,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemonShape.');
             }
-            const localVarPath = `/api/v2/pokemon-shape/{id}/`
+            const localVarPath = `/pokemon-shape/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3202,7 +3202,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrievePokemonSpecies.');
             }
-            const localVarPath = `/api/v2/pokemon-species/{id}/`
+            const localVarPath = `/pokemon-species/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3235,7 +3235,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveRegion.');
             }
-            const localVarPath = `/api/v2/region/{id}/`
+            const localVarPath = `/region/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3268,7 +3268,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveStat.');
             }
-            const localVarPath = `/api/v2/stat/{id}/`
+            const localVarPath = `/stat/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3301,7 +3301,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveSuperContestEffect.');
             }
-            const localVarPath = `/api/v2/super-contest-effect/{id}/`
+            const localVarPath = `/super-contest-effect/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3334,7 +3334,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveType.');
             }
-            const localVarPath = `/api/v2/type/{id}/`
+            const localVarPath = `/type/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3367,7 +3367,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveVersion.');
             }
-            const localVarPath = `/api/v2/version/{id}/`
+            const localVarPath = `/version/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;
@@ -3400,7 +3400,7 @@ export const DefaultApiAxiosParamCreator = function (configuration?: Configurati
             if (id === null || id === undefined) {
                 throw new RequiredError('id','Required parameter id was null or undefined when calling retrieveVersionGroup.');
             }
-            const localVarPath = `/api/v2/version-group/{id}/`
+            const localVarPath = `/version-group/{id}/`
                 .replace(`{${"id"}}`, encodeURIComponent(String(id)));
             const localVarUrlObj = globalImportUrl.parse(localVarPath, true);
             let baseOptions;

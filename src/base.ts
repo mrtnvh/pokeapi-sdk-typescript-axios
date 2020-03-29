@@ -16,7 +16,7 @@
 import { Configuration } from "./configuration";
 import globalAxios, { AxiosPromise, AxiosInstance } from 'axios';
 
-export const BASE_PATH = "https://pokeapi.co/api/v2".replace(/\/+$/, "");
+export const BASE_PATH = "https://pokeapi.co".replace(/\/+$/, "");
 
 /**
  *

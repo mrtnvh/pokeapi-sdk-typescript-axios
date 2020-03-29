@@ -20,7 +20,7 @@
   "homepage": "https://github.com/vanhoofmaarten/pokeapi-sdk-typescript-axios#readme",
   "dependencies": {},
   "devDependencies": {
-    "rimraf": "^3.0.2",
-    "pokeapi-openapi": "git+https://github.com/vanhoofmaarten/pokeapi-openapi.git#364b44e690973b69eb655ed736dabc35bb006de7"
+    "pokeapi-openapi": "git+https://github.com/vanhoofmaarten/pokeapi-openapi.git#16dbb72cbe54822b1ea9cecb36ae4dd041189b74",
+    "rimraf": "^3.0.2"
   }
 }
